@@ -49,9 +49,9 @@ a1c250be40455cc61a43da1201ec3f1edaea71214865fb47f57927e06cbe4996  ./models/ipada
 f4a17fb643bf876235a45a0e87a49da2855be6584b28ca04c62a97ab5ff1c6f3  ./models/ipadapter/ip-adapter-full-face_sd15.safetensors
 a26f736af07bb341a83dfea23713531d0575760e8ed947c68cb31a4c62d9c90b  ./models/ipadapter/ip-adapter_sd15_vit-G.safetensors
 ebf05d918348aec7abb02a5e9ecef77e0aaea6914a5c4ea13f50d45eb1681831  ./models/ipadapter/ip-adapter_sdxl_vit-h.safetensors
-677ad8860204f7d0bfba12d29e6c31ded9beefdf3e4bbd102518357d31a292c1  ./models/ipadapter/ip-adapter-plus_sdxl_vit-h.safetensors
-50e886d82940b3c5873d80c2b06d8a4b0d0fccec70bc44fd53f16ac3cfd7fc36  ./models/ipadapter/ip-adapter-plus-face_sdxl_vit-h.safetensors
-7525f2731e9e86d1368e0b68467615d55dda459691965bdd7d37fa3d7fd84c12  ./models/ipadapter/ip-adapter_sdxl.safetensors
+3f5062b8400c94b7159665b21ba5c62acdcd7682262743d7f2aefedef00e6581  ./models/ipadapter/ip-adapter-plus_sdxl_vit-h.safetensors
+677ad8860204f7d0bfba12d29e6c31ded9beefdf3e4bbd102518357d31a292c1  ./models/ipadapter/ip-adapter-plus-face_sdxl_vit-h.safetensors
+ba1002529e783604c5f326d49f0122025392d1d20ac8d573b3eeb3e6dea4ebb6  ./models/ipadapter/ip-adapter_sdxl.safetensors
 201344e22e6f55849cf07ca7a6e53d8c3b001327c66cb9710d69fd5da48a8da7  ./models/ipadapter/ip-adapter-faceid_sd15.bin
 26d0d86a1d60d6cc811d3b8862178b461e1eeb651e6fe2b72ba17aa95411e313  ./models/ipadapter/ip-adapter-faceid-plusv2_sd15.bin
 a48cb4f89ed18e02c6000f65aa9efec452e87eaed4a1bc9fcf4a460c8d0e3bc6  ./models/ipadapter/ip-adapter-faceid-portrait-v11_sd15.bin
