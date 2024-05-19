@@ -17,7 +17,9 @@ RUN git clone https://github.com/ltdrdata/ComfyUI-Manager && \
     git clone https://github.com/ltdrdata/ComfyUI-Impact-Pack && \
     git clone https://github.com/cubiq/ComfyUI_IPAdapter_plus && \
     git clone https://github.com/chrisgoringe/cg-use-everywhere && \
-    git clone https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes
+    git clone https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes && \
+    git clone https://github.com/ali1234/comfyui-job-iterator && \
+    git clone https://github.com/Ttl/ComfyUi_NNLatentUpscale.git
 WORKDIR $COMFYDIR/custom_nodes/ComfyUI-Impact-Pack
 RUN git clone https://github.com/ltdrdata/ComfyUI-Impact-Subpack impact_subpack
 
@@ -32,15 +34,11 @@ RUN pip install torch torchvision torchaudio --extra-index-url https://download.
 
 ## TO DO
 # Needed custom notes:
-#    GetImageSize
-#    DWPreprocessor
-#    IPAdapterApply
+#    DWPreprocessor --
+#    IPAdapterApply --
 #    NNLatentUpscale
-# URLs:
-#    https://github.com/ltdrdata/ComfyUI-Impact-Pack
-#    https://github.com/cubiq/ComfyUI_IPAdapter_plus
-#    https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes
-#    https://github.com/chrisgoringe/cg-use-everywhere
+
+
 
 ## Start ComfyUI
 WORKDIR $COMFYDIR

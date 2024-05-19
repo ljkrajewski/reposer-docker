@@ -18,3 +18,4 @@ _You can change to host port ('80' in the example above) to any open TCP port yo
 - [Dockerfile reference](https://docs.docker.com/reference/dockerfile/)
 - [comfyui_colab_with_manager.ipynb [Google Colab]](https://colab.research.google.com/github/ltdrdata/ComfyUI-Manager/blob/main/notebooks/comfyui_colab_with_manager.ipynb)
 - [nerdyrodent/AVeryComfyNerd](https://github.com/nerdyrodent/AVeryComfyNerd): A variety of ComfyUI related workflows and other stuff from the creator of the [Reposer](https://www.youtube.com/watch?v=SacK9tMVNUA) and [Reposer Plus](https://www.youtube.com/watch?v=ZcCfwTkYSz8) workflows.
+- [ComfyUI Custom Nodes Glossary](https://comfy.icu/node/): Look up custom ComfyUI nodes and find (among other things) their related GitHub repos.
