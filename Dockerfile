@@ -13,10 +13,10 @@ RUN apt update && \
     ln -s /usr/bin/python3 /usr/bin/python && \
     git clone https://github.com/comfyanonymous/ComfyUI
 WORKDIR $COMFYDIR/custom_nodes
-RUN git clone https://github.com/ltdrdata/ComfyUI-Manager && /
-    git clone https://github.com/ltdrdata/ComfyUI-Impact-Pack.git && /
-    git clone https://github.com/cubiq/ComfyUI_IPAdapter_plus && /
-    git clone https://github.com/chrisgoringe/cg-use-everywhere.git
+RUN git clone https://github.com/ltdrdata/ComfyUI-Manager && \
+    git clone https://github.com/ltdrdata/ComfyUI-Impact-Pack && \
+    git clone https://github.com/cubiq/ComfyUI_IPAdapter_plus && \
+    git clone https://github.com/chrisgoringe/cg-use-everywhere
 WORKDIR $COMFYDIR/custom_nodes/ComfyUI-Impact-Pack
 RUN git clone https://github.com/ltdrdata/ComfyUI-Impact-Subpack impact_subpack
 
