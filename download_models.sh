@@ -118,6 +118,11 @@ dlFromWeb 'https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-
 dlFromWeb 'https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-portrait_sdxl.bin'
 dlFromWeb 'https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-portrait_sdxl_unnorm.bin'
 
+[ ! -d $BASEDIR/models/bert-base-uncased ] && mkdir -p $BASEDIR/models/bert-base-uncased
+cd $BASEDIR/models/bert-base-uncased
+git lfs install
+git clone https://huggingface.co/google-bert/bert-base-uncased
+
 # Verify Downloads
 cd $BASEDIR
 sha256sum -c models.sha256

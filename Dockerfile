@@ -19,7 +19,9 @@ RUN git clone https://github.com/ltdrdata/ComfyUI-Manager && \
     git clone https://github.com/chrisgoringe/cg-use-everywhere && \
     git clone https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes && \
     git clone https://github.com/ali1234/comfyui-job-iterator && \
-    git clone https://github.com/Ttl/ComfyUi_NNLatentUpscale.git
+    git clone https://github.com/storyicon/comfyui_segment_anything
+#    git clone https://github.com/Ttl/ComfyUi_NNLatentUpscale.git && \
+#    git clone https://github.com/Fannovel16/comfyui_controlnet_aux
 WORKDIR $COMFYDIR/custom_nodes/ComfyUI-Impact-Pack
 RUN git clone https://github.com/ltdrdata/ComfyUI-Impact-Subpack impact_subpack
 
@@ -30,13 +32,22 @@ COPY models models
 ## Install dependencies
 RUN pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu121 && \
     pip install -r requirements.txt && \
-    pip install -r custom_nodes/ComfyUI-Manager/requirements.txt
+    pip install -r custom_nodes/ComfyUI-Manager/requirements.txt && \
+    pip install -r custom_nodes/comfyui_segment_anything/requirements.txt
+#    pip install -r custom_nodes/comfyui_controlnet_aux/requirements.txt
+#    python ComfyUI/custom_nodes/ComfyUI-Inference-Core-Nodes/install.py
 
 ## TO DO
 # Needed custom notes:
-#    DWPreprocessor --
-#    IPAdapterApply --
+#    SAMModelLoader (segment anything)
+#    GroundingDinoModelLoader (segment anything)
+#    ArithmeticBlend
+#    GroundingDinoSAMSegment (segment anything)
+#    ImageBatchGet
+#    DWPreprocessor
 #    NNLatentUpscale
+#    UltimateSDUpscale
+#    IPAdapterApply
 
 
 
