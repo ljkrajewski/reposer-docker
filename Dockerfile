@@ -19,7 +19,8 @@ RUN git clone https://github.com/ltdrdata/ComfyUI-Manager && \
     git clone https://github.com/chrisgoringe/cg-use-everywhere && \
     git clone https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes && \
     git clone https://github.com/ali1234/comfyui-job-iterator && \
-    git clone https://github.com/storyicon/comfyui_segment_anything
+    git clone https://github.com/storyicon/comfyui_segment_anything && \
+    git clone https://github.com/ssitu/ComfyUI_UltimateSDUpscale
 #    git clone https://github.com/Ttl/ComfyUi_NNLatentUpscale.git && \
 #    git clone https://github.com/Fannovel16/comfyui_controlnet_aux
 WORKDIR $COMFYDIR/custom_nodes/ComfyUI-Impact-Pack
@@ -39,10 +40,7 @@ RUN pip install torch torchvision torchaudio --extra-index-url https://download.
 
 ## TO DO
 # Needed custom notes:
-#    SAMModelLoader (segment anything)
-#    GroundingDinoModelLoader (segment anything)
 #    ArithmeticBlend
-#    GroundingDinoSAMSegment (segment anything)
 #    ImageBatchGet
 #    DWPreprocessor
 #    NNLatentUpscale
